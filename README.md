@@ -85,14 +85,4 @@ const greet = (name) => `Hello, ${name}!`;
 console.log(greet('Charlie')); // Hello, Charlie!
 Anonymous Function: A function without a name, typically used as a callback.
 
-
-setTimeout(function() {
-  console.log('This runs after 3 seconds');
-}, 3000);
-Immediately Invoked Function Expression (IIFE): A function that runs as soon as it is defined.
-
-
-(function() {
-  console.log('This is an IIFE');
-})();
 ![](https://miro.medium.com/v2/resize:fit:1400/1*oTlqfS_eCRt14QaAw7XpRw.jpeg)
